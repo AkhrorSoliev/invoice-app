@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .max-container {
+    max-width: 730px;
+    @apply w-full mx-auto py-5;
+  }
+}
